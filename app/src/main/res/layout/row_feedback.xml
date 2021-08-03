@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Feedbackdate:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_weight="60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvfeedbackdate"
+            android:text="Feedbackdate:"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="FeedbackDescription:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_weight="60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvfeedbackdescription"
+            android:text="FeedbackDescription:"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Feedbackrating:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvfeedbackrating"
+                android:text="Feedbackrating:"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Userid:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvuserid"
+                android:text="Userid:"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Acdemyid:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvacademyid"
+                android:text="Academyid:"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_weight="40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

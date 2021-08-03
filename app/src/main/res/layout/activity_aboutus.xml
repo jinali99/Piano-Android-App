@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5d5d5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/music_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineHeight="5dp"
+        android:padding="15dp"
+        android:text="The Musical App"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Our aim is to manage a fine balance between the traditional format of learning and the contemporary style of teaching. To create a space of learning that gives a sense of belonging to all who are associated with RCA Music Academy.As educators, we take great pride in our performance-based model of music instruction.This essentially means that our approach is different in more ways than one. As a vibrant, contemporary Academy, we have turned the music education methodology on its ear by following ‘fun while learning to play’ practice."
+        android:textColor="@android:color/black" />
+</LinearLayout>

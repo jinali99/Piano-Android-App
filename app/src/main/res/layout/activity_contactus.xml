@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5d5d5"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/music_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineHeight="5dp"
+        android:padding="15dp"
+        android:text="The Musical App"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_my_location"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text=" Ff/1, Aakar Complex,\n Sardar Patel Stadium Road,\n Navrangpura,\n Ahmedabad, \nGujarat 380014"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:text="079 2646 3244"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawablePadding="8dp"
+        android:drawableTint="@android:color/black"
+        android:padding="10dp"
+        android:text="musicalapp@gmail.com"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

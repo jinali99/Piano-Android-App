@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddFeedback">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etFeedbackDescripion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Feedback Description" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RatingBar
+        android:id="@+id/etFeedbackRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Feedback Rating" />
+
+    <Button
+        android:id="@+id/btnAddFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Submit Your Feedback"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    
+</LinearLayout>
