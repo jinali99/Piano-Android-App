@@ -2,4 +2,4 @@
 
 ### An android application for playing piano with in-built tunes and also we can create new tunes.
 
-#### Backnend and admin panel with database file [repo.](https://github.com/jinali99/)
+#### Backnend and admin panel with database file [repo.](https://github.com/jinali99/Piano-Admin-Panel/)
